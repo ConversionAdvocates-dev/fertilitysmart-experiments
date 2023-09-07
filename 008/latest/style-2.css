@@ -1,0 +1,17 @@
+#checkout-app fieldset[data-test='checkout-shipping-comments'] {
+  display: none;
+}
+
+#ftsm-008-progress {
+  max-width: 298px;
+  margin: 0 auto;
+}
+
+#ftsm-008-progress .progress__line {
+  display: none;
+}
+
+#ftsm-008-progress .progress__line.active {
+  display: block;
+}
+

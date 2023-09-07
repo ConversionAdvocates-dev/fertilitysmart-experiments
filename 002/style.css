@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Jost:wght@400;500;600&display=swap");
+
+[data-content-region="home_below_menu"] + .container,
+[data-content-region="home_below_carousel"] {
+  display: none;
+}
+
+#ca-ftsm-002 .hero {
+  text-align: center;
+  background-image: url(https://conversionadvocates.com/exp-images/ftsm/002/hero.jpg);
+  background-color: #d565a1;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  padding: 36px 26px 260px;
+  position: relative;
+}
+#ca-ftsm-002 .hero::after {
+  content: "";
+  width: 141px;
+  height: 173px;
+  background-image: url(https://conversionadvocates.com/exp-images/ftsm/002/bottle.png);
+  background-size: contain;
+  position: absolute;
+  left: 16px;
+  bottom: -40px;
+}
+
+#ca-ftsm-002 .hero .ca-ftsm-002-container {
+  max-width: 290px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#ca-ftsm-002 .hero__heading {
+  font: 500 34px/44px "Jost", sans-serif;
+  color: #fff;
+  margin: 0 auto 4px;
+}
+
+#ca-ftsm-002 .hero__subheading {
+  font: 400 14px/17px "Inter", sans-serif;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+#ca-ftsm-002 .hero__cta {
+  width: 264px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 400 16px/24px "Jost", sans-serif;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 45px;
+  margin: 0 auto;
+}
+#ca-ftsm-002 .hero__cta:not(:last-of-type) {
+  margin-bottom: 12px;
+}
+#ca-ftsm-002 .hero__cta--purple {
+  background-color: #642a75;
+}
+#ca-ftsm-002 .hero__cta--blue {
+  background-color: #2975ab;
+}
+
+#ca-ftsm-002 .review {
+  background-color: #f5ebef;
+  padding: 50px 16px 28px;
+}
+
+#ca-ftsm-002 .review-trust {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 21px;
+}
+
+#ca-ftsm-002 .review-trust .trust__img {
+  margin-right: 20px;
+}
+
+#ca-ftsm-002 .review-trust .trust__p {
+  max-width: 350px;
+  font: 400 16px/22px "Jost", sans-serif;
+  color: #221d23;
+  margin-bottom: 0;
+}
+
+#ca-ftsm-002 .review-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #642a75;
+  border-radius: 20px 20px 0px 20px;
+  padding: 24px 0 18px;
+}
+
+#ca-ftsm-002 .review-content .content__stars {
+  display: flex;
+  margin: 0;
+  list-style: none;
+}
+#ca-ftsm-002 .review-content .content__stars-item {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+#ca-ftsm-002 .review-content .content__stars-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+#ca-ftsm-002 .review-content .content__p,
+#ca-ftsm-002 .review-content .content__span {
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "Jost", sans-serif;
+  color: #fff;
+}
+#ca-ftsm-002 .review-content .content__p {
+  margin: 4px 0 2px;
+  font-weight: 600;
+}
+#ca-ftsm-002 .review-content .content__span {
+  font-weight: 400;
+}
+#ca-ftsm-002 .review-content--desktop {
+  width: 285px;
+  display: none;
+  border-radius: 60px 60px 60px 0;
+  position: absolute;
+  top: -3rem;
+  right: 6rem;
+}
+#ca-ftsm-002 .review-content--desktop .content__p {
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 8px;
+}
+
+#ca-ftsm-002 .review-content--desktop .content-inner {
+  display: flex;
+}
+#ca-ftsm-002 .review-content--desktop .content__span {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+@media only screen and (min-width: 390px) {
+  #ca-ftsm-002 .hero {
+    padding-bottom: 320px;
+  }
+}
+@media only screen and (min-width: 425px) {
+  #ca-ftsm-002 .hero {
+    padding-bottom: 420px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  #ca-ftsm-002 .hero {
+    background-position-y: calc(100% + 150px);
+  }
+}
+@media only screen and (min-width: 768px) {
+  #ca-ftsm-002 .hero {
+    text-align: left;
+    background-image: url(https://conversionadvocates.com/exp-images/ftsm/002/hero-desktop.jpg);
+    background-position: center;
+    background-size: auto 100%;
+    padding: 60px 0 156px;
+  }
+  #ca-ftsm-002 .hero::after {
+    width: 220px;
+    height: 270px;
+    left: unset;
+    right: 6rem;
+    background-size: cover;
+  }
+  #ca-ftsm-002 .hero .ca-ftsm-002-container {
+    max-width: calc(1440px + 12rem);
+    padding: 0 6rem;
+  }
+  #ca-ftsm-002 .hero__heading {
+    max-width: 450px;
+    font-size: 56px;
+    line-height: 72px;
+    margin-left: 0;
+  }
+  #ca-ftsm-002 .hero__subheading {
+    max-width: 450px;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 32px;
+  }
+  #ca-ftsm-002 .hero__cta {
+    margin-left: 0;
+  }
+  #ca-ftsm-002 .review {
+    padding: 3rem 6rem 1rem;
+  }
+  #ca-ftsm-002 .review-trust {
+    justify-content: flex-start;
+    margin-bottom: 0;
+  }
+  #ca-ftsm-002 .review-trust .trust__p {
+    max-width: unset;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  #ca-ftsm-002 .review-content {
+    display: none;
+  }
+  #ca-ftsm-002 .review-content--desktop {
+    display: flex;
+  }
+}
+@media only screen and (min-width: 900px) {
+  #ca-ftsm-002 .hero::after {
+    width: 307px;
+    height: 376px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  #ca-ftsm-002 .hero__cta-wrapper {
+    display: flex;
+  }
+  #ca-ftsm-002 .hero__cta.hero__cta--purple {
+    margin-right: 12px;
+    margin-bottom: 0;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  #ca-ftsm-002 .review {
+    padding-top: 1rem;
+  }
+}

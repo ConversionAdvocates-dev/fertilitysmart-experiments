@@ -1,0 +1,119 @@
+.ftsm-004--desktop {
+  display: none;
+}
+
+.ftsm-004--mobile {
+  margin-top: 20px;
+}
+
+.ftsm-004 .atc-options {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ftsm-004--desktop .atc-options {
+  margin-bottom: 1rem;
+}
+
+.ftsm-004 .atc-option {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #D9D9D9;
+  border-radius: 5px;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+  padding: 12px 4px;
+}
+.ftsm-004 .atc-option:first-of-type {
+  width: 45%;
+  margin-right: 8px;
+}
+.ftsm-004 .atc-option:last-of-type {
+  flex-grow: 1;
+}
+.ftsm-004 .atc-option.atc-option--active {
+  background-color: rgba(228, 97, 152, 0.1);
+  border-color: #E46198;
+}
+.ftsm-004 .atc-option.atc-option--active svg {
+  color: #E46198;
+}
+
+.ftsm-004 .atc-option__heading {
+  font: 700 14px/20px "Roboto", sans-serif;
+  color: #E46198;
+  margin-top: 8px;
+}
+
+.ftsm-004 .atc-option__subheading {
+  color: #221D23;
+  font: 400 14px/20px "Roboto", sans-serif;
+  text-transform: none;
+  letter-spacing: unset;
+  margin: 0;
+}
+
+.ftsm-004--mobile .atc__button {
+  width: 100%;
+  display: block;
+  font: 700 1.25rem/1rem "Roboto", sans-serif;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #642a75;
+  padding: 21px 0;
+  border-radius: 4px;
+  margin-top: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.ftsm-004--mobile .atc-promotion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid #e36197;
+  background: #e36197;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.ftsm-004--mobile .atc-promotion .promotion__heading {
+  font-size: 1.25em;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
+}
+
+.ftsm-004--mobile .atc-promotion .promotion__subheading {
+  font-weight: 700;
+}
+
+.ftsm-004--mobile .productView-image-ingredients {
+  border: 2px solid #eee;
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .productView-product .product-offer,
+  .productView-image-ingredients {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .ftsm-004--mobile,
+  #add-to-cart-wrapper .form-field.form-field--increments {
+    display: none;
+  }
+  .ftsm-004--desktop {
+    display: flex;
+  }
+}
